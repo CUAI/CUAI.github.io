@@ -1,2 +1,2 @@
-# CUVL.github.io
-CUVL official club site.
+# CUAI.github.io
+CUAI official club site.
