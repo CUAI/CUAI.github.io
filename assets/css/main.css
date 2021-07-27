@@ -2609,3 +2609,17 @@ input, select, textarea {
 				}
 
 	}
+	.paperimg {
+		margin-left: 40px;
+		border: 1px solid #787878;
+		min-width: 100px;
+		max-width: 100px;
+		min-height: 70px;
+		max-height: 100px;
+		margin-right: 20px;
+	}
+
+	.paperdesc {
+		text-align: left;
+		display: inline-block;
+	}
