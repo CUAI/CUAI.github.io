@@ -2609,6 +2609,10 @@ input, select, textarea {
 				}
 
 	}
+	.paper {
+		display: flex;
+		flex-direction: row;
+	}
 	.paperimg {
 		margin-left: 40px;
 		border: 1px solid #787878;
@@ -2621,5 +2625,13 @@ input, select, textarea {
 
 	.paperdesc {
 		text-align: left;
-		display: inline-block;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin-right: 40px;
+	}
+
+	.papertitle {
+		display: block;
+		margin-bottom: 6px;
 	}
