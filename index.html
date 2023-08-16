@@ -20,6 +20,11 @@
 
     <!-- Vendor CSS Files -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      type="text/javascript"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-chtml.js"
+    ></script>
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link
       href="assets/vendor/bootstrap/css/bootstrap.min.css"
@@ -63,7 +68,7 @@
           </li>
           <li>
             <a href="#overview" class="nav-link scrollto"
-              ><i class="bx bx-user"></i> <span>Overview</span></a
+              ><i class="bx bx-brain"></i> <span>Overview</span></a
             >
           </li>
           <li>
@@ -72,8 +77,13 @@
             >
           </li>
           <li>
+            <a href="#apply" class="nav-link scrollto"
+              ><i class="bx bx-pencil"></i> <span>Apply</span></a
+            >
+          </li>
+          <li>
             <a href="#people" class="nav-link scrollto"
-              ><i class="bx bx-book-content"></i> <span>People</span></a
+              ><i class="bx bx-user"></i> <span>People</span></a
             >
           </li>
           <li>
@@ -95,7 +105,7 @@
           publishing research in
           <span
             class="typed"
-            data-typed-items="computer vision, graphics, reinforcement learning, natural language processing"
+            data-typed-items="graphics, reinforcement learning, differential geometry, computer vision, natural language processing"
           ></span>
         </p>
         <div class="social-links">
@@ -157,19 +167,19 @@
       <!-- End About Section -->
 
       <!-- ======= Publications Section ======= -->
-      <section id="publications" class="facts">
+      <section id="publications" class="publications">
         <div class="container max-w-screen-lg m-auto" data-aos="fade-up">
           <div class="section-title">
             <h2>Recent Publications</h2>
           </div>
           <div
-            class="grid row-auto gap-2 flex mt-8 place-items-center sm:grid-col-2"
+            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
           >
             <img
               src="assets/img/projects/clip_dn.jpg"
-              class="w-48 h-auto sm:col-start-1 sm: w-60"
+              class="w-48 h-auto place-self-center sm:col-start-1 sm: w-60"
             />
-            <div class="text-base sm:col-start-2 sm:pl-8">
+            <div class="text-base self-center sm:col-start-2 sm:pl-8">
               <p class="font-bold text-lg">
                 Test-Time Distribution Normalization for Contrastively Learned
                 Visual-language Models
@@ -180,7 +190,7 @@
               <p>
                 Yifei Zhou*, Juntao Ren*, Fengyu Li*, Ramin Zabih, Ser-Nam Lim
               </p>
-              <div class="grid grid-cols-3 gap-3 max-w-sm">
+              <div class="grid grid-cols-2 gap-3 max-w-sm">
                 <a
                   class="text-sm"
                   href="https://doi.org/10.48550/arXiv.2302.11084"
@@ -204,12 +214,552 @@
               </div>
             </div>
           </div>
+          <div
+            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
+          >
+            <img
+              src="assets/img/projects/rrnet.png"
+              class="w-48 h-auto place-self-center sm:col-start-1 sm: w-60"
+            />
+            <div class="text-base self-center sm:col-start-2 sm:pl-8">
+              <p class="font-bold text-lg">
+                Riemannian Residual Neural Networks
+              </p>
+              <p>
+                Under Review.
+              </p>
+              <p>
+                Isay Katsman*, Eric Chen*, Sidhanth Holalkere*, Anna Asch*,
+                Aaron Lou, Ser-Nam Lim, Christopher De Sa
+              </p>
+              <div class="grid grid-cols-2 gap-3 max-w-sm">
+                <a
+                  class="text-sm"
+                  href="https://drive.google.com/file/d/1yZ_uDbXNn4OfINR8LSe1WA0o5-ae4jq4/view"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    PDF
+                  </div>
+                </a>
+                <a
+                  class="text-sm"
+                  href="https://drive.google.com/file/d/1uWpzZ2SemGpIAClOSaVVQI-L4PZZ0xnU/view"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    POSTER
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
+          >
+            <img
+              src="assets/img/projects/bt2.png"
+              class="w-48 h-auto place-self-center sm:col-start-1 sm: w-60"
+            />
+            <div class="text-base self-center sm:col-start-2 sm:pl-8">
+              <p class="font-bold text-lg">
+                \(BT^2\): Backward-compatible Training with Basis Transformation
+              </p>
+              <p>
+                ICCV 2023.
+              </p>
+              <p>
+                Yifei Zhou*, Zilu Li*, Abhinav Shrivastava, Hengshuang Zhao,
+                Antonio Torralba, Taipeng Tian, Ser-Nam Lim
+              </p>
+              <div class="grid grid-cols-2 gap-3 max-w-sm">
+                <a
+                  class="text-sm"
+                  href="https://arxiv.org/abs/2211.03989"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    PDF
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
+          >
+            <img
+              src="assets/img/projects/raycond.png"
+              class="w-48 h-auto place-self-center sm:col-start-1 sm: w-60"
+            />
+            <div class="text-base self-center sm:col-start-2 sm:pl-8">
+              <p class="font-bold text-lg">
+                Ray Conditioning: Trading Photo-consistency for Photo-realism in
+                Multi-view Image Generation
+              </p>
+              <p>
+                ICCV 2023.
+              </p>
+              <p>
+                Eric Chen, Sidhanth Holalkere, Ruyu Yan, Kai Zhang, Abe Davis
+              </p>
+              <div class="grid grid-cols-2 gap-3 max-w-sm">
+                <a
+                  class="text-sm"
+                  href="https://arxiv.org/abs/2304.13681"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    PDF
+                  </div>
+                </a>
+                <a
+                  class="text-sm"
+                  href="https://ray-cond.github.io/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    WEBSITE
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
+          >
+            <img
+              src="assets/img/projects/gapx.png"
+              class="w-48 h-auto place-self-center sm:col-start-1 sm: w-60"
+            />
+            <div class="text-base self-center sm:col-start-2 sm:pl-8">
+              <p class="font-bold text-lg">
+                GAPX: Generalized Autoregressive Paraphrase-identification X
+              </p>
+              <p>
+                NeurIPS 2022.
+              </p>
+              <p>
+                Yifei Zhou, Renyu Li, Hayden Housen, Ser-Nam Lim
+              </p>
+              <div class="grid grid-cols-2 gap-3 max-w-sm">
+                <a
+                  class="text-sm"
+                  href="https://arxiv.org/abs/2210.01979"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    PDF
+                  </div>
+                </a>
+                <a
+                  class="text-sm"
+                  href="https://github.com/YifeiZhou02/generalized_paraphrase_identification"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    CODE
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
+          >
+            <img
+              src="assets/img/projects/neqmode.png"
+              class="w-48 place-self-center sm:col-start-1 sm: w-60"
+            />
+            <div class="text-base self-center sm:col-start-2 sm:pl-8">
+              <p class="font-bold text-lg">
+                Equivariant Manifold Flows
+              </p>
+              <p>
+                NeurIPS 2021.
+              </p>
+              <p>
+                Isay Katsman*, Aaron Lou*, Derek Lim*, Qingxuan Jiang*, Ser-Nam
+                Lim, Christopher De Sa
+              </p>
+              <div class="grid grid-cols-2 gap-3 max-w-sm">
+                <a
+                  class="text-sm"
+                  href="https://arxiv.org/abs/2107.08596"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    PDF
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
+          >
+            <img
+              src="assets/img/projects/row_graphs.png"
+              class="w-48 place-self-center sm:col-start-1 sm: w-60"
+            />
+            <div class="text-base self-center sm:col-start-2 sm:pl-8">
+              <p class="font-bold text-lg">
+                Large Scale Learning on Non-Homophilous Graphs: New Benchmarks
+                and Strong Simple Methods
+              </p>
+              <p>
+                NeurIPS 2021.
+              </p>
+              <p>
+                Derek Lim*, Felix Hohne*, Xiuyu Li*, Sijia Linda Huang,
+                Vaishnavi Gupta, Omkar Bhalerao, Ser-Nam Lim
+              </p>
+              <div class="grid grid-cols-2 gap-3 max-w-sm">
+                <a
+                  class="text-sm"
+                  href="https://arxiv.org/abs/2110.14446"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    PDF
+                  </div>
+                </a>
+                <a
+                  class="text-sm"
+                  href="https://github.com/CUAI/Non-Homophily-Large-Scale"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    CODE
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
+          >
+            <img
+              src="assets/img/projects/correct_and_smooth.png"
+              class="w-48 place-self-center sm:col-start-1 sm: w-60"
+            />
+            <div class="text-base self-center sm:col-start-2 sm:pl-8">
+              <p class="font-bold text-lg">
+                Combining Label Propagation and Simple Models Out-performs Graph
+                Neural Networks
+              </p>
+              <p>
+                ICLR 2021.
+              </p>
+              <p>
+                Qian Huang*, Horace He*, Abhay Singh, Ser-Nam Lim, Austin Benson
+              </p>
+              <div class="grid grid-cols-2 gap-3 max-w-sm">
+                <a
+                  class="text-sm"
+                  href="https://openreview.net/forum?id=8E1-f3VhX1o"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    PDF
+                  </div>
+                </a>
+                <a
+                  class="text-sm"
+                  href="https://github.com/CUAI/CorrectAndSmooth"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    CODE
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
+          >
+            <img
+              src="assets/img/projects/nmode.png"
+              class="w-48 place-self-center sm:col-start-1 sm: w-60"
+            />
+            <div class="text-base self-center sm:col-start-2 sm:pl-8">
+              <p class="font-bold text-lg">
+                Neural Manifold Ordinary Differential Equations
+              </p>
+              <p>
+                NeurIPS 2020.
+              </p>
+              <p>
+                Aaron Lou*, Derek Lim*, Isay Katsman*, Leo Huang*, Qingxuan
+                Jiang, Ser-Nam Lim, Christopher De Sa
+              </p>
+              <div class="grid grid-cols-2 gap-3 max-w-sm">
+                <a
+                  class="text-sm"
+                  href="https://arxiv.org/abs/2006.10254"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    PDF
+                  </div>
+                </a>
+                <a
+                  class="text-sm"
+                  href="https://github.com/CUAI/Neural-Manifold-Ordinary-Differential-Equations"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    CODE
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
+          >
+            <img
+              src="assets/img/projects/bsr.png"
+              class="w-48 place-self-center sm:col-start-1 sm: w-60"
+            />
+            <div class="text-base self-center sm:col-start-2 sm:pl-8">
+              <p class="font-bold text-lg">
+                Better Set Representations For Relational Reasoning
+              </p>
+              <p>
+                NeurIPS 2020.
+              </p>
+              <p>
+                Qian Huang*, Horace He*, Abhay Singh, Yan Zhang, Ser-Nam Lim,
+                Austin Benson
+              </p>
+              <div class="grid grid-cols-3 gap-3 max-w-sm">
+                <a
+                  class="text-sm"
+                  href="https://arxiv.org/abs/2003.04448"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    PDF
+                  </div>
+                </a>
+                <a
+                  class="text-sm"
+                  href="https://github.com/CUAI/BetterSetRepresentations"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    CODE
+                  </div>
+                </a>
+                <a
+                  class="text-sm"
+                  href="https://www.youtube.com/watch?v=Yhe5mZ-i6-Y&ab_channel=ObjectOriented"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    TALK
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
+          >
+            <img
+              src="assets/img/projects/frechet.png"
+              class="w-48 place-self-center sm:col-start-1 sm: w-60"
+            />
+            <div class="text-base self-center sm:col-start-2 sm:pl-8">
+              <p class="font-bold text-lg">
+                Differentiating through the Fréchet Mean
+              </p>
+              <p>
+                ICML 2020.
+              </p>
+              <p>
+                Aaron Lou*, Isay Katsman*, Qingxuan Jiang*, Serge Belongie,
+                Ser-Nam Lim, Christopher De Sa
+              </p>
+              <div class="grid grid-cols-3 gap-3">
+                <a
+                  class="text-sm"
+                  href="https://arxiv.org/abs/2003.04448"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    PDF
+                  </div>
+                </a>
+                <a
+                  class="text-sm"
+                  href="https://github.com/CUAI/BetterSetRepresentations"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    CODE
+                  </div>
+                </a>
+                <a
+                  class="text-sm"
+                  href="https://www.youtube.com/watch?v=Yhe5mZ-i6-Y&ab_channel=ObjectOriented"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    TALK
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
+          >
+            <img
+              src="assets/img/projects/enhancing.png"
+              class="w-48 place-self-center sm:col-start-1 sm: w-60"
+            />
+            <div class="text-base self-center sm:col-start-2 sm:pl-8">
+              <p class="font-bold text-lg">
+                Enhancing Adversarial Example Transferability with an
+                Intermediate Level Attack
+              </p>
+              <p>
+                ICCV 2019.
+              </p>
+              <p>
+                Qian Huang*, Isay Katsman*, Horace He*, Zeqi Gu*, Serge
+                Belongie, Ser-Nam Lim
+              </p>
+              <div class="grid grid-cols-4 gap-2">
+                <a
+                  class="text-sm"
+                  href="https://arxiv.org/abs/1907.10823"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    PDF
+                  </div>
+                </a>
+                <a
+                  class="text-sm"
+                  href="https://github.com/CUAI/Intermediate-Level-Attack"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    CODE
+                  </div>
+                </a>
+                <a
+                  class="text-sm"
+                  href="https://slideslive.com/38922555/contributed-talk-5-enhancing-adversarial-example-transferability-with-an-intermediate-level-attack"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    TALK
+                  </div>
+                </a>
+                <a
+                  class="text-sm"
+                  href="https://news.cornell.edu/stories/2019/11/cs-undergrads-research-sets-sights-image-hackers"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    CORNELL CHRONICLE
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
+          >
+            <img
+              src="assets/img/projects/decomp.png"
+              class="w-48 place-self-center sm:col-start-1 sm: w-60"
+            />
+            <div class="text-base self-center sm:col-start-2 sm:pl-8">
+              <p class="font-bold text-lg">
+                Adversarial Example Decomposition
+              </p>
+              <p>
+                ICML 2019 Workshop, Security and Privacy of Machine Learning.
+              </p>
+              <p>
+                Horace He, Aaron Lou*, Qingxuan Jiang*, Isay Katsman*, Serge
+                Belongie, Ser-Nam Lim
+              </p>
+              <div class="grid grid-cols-2 gap-2 max-w-sm">
+                <a
+                  class="text-sm"
+                  href="https://arxiv.org/abs/1812.01198"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div class="bg-white p-1 rounded-md border-2 text-center">
+                    PDF
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
           <div class="text-right">
             <p>* indicates equal contribution</p>
           </div>
         </div>
       </section>
       <!-- End Facts Section -->
+
+      <!-- ======= Applications Section ======= -->
+      <section id="apply" class="">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Recruitment</h2>
+            <p>
+              CUAI is recruiting for Fall 2023! We encourage undergraduates from
+              all disciplines to apply, and will also be offering a limited
+              number of coffee chats on a first come, first served basis. Please
+              follow the link
+              <a
+                href="https://forms.gle/4vj3zgA9QtS1Jjov7"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <u>here</u>
+              </a>
+              to apply.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- End Applications Section -->
 
       <!-- ======= Portfolio Section ======= -->
       <section id="people" class="portfolio section-bg">
@@ -527,12 +1077,63 @@
                 </a>
               </div>
             </div>
+            <div
+              class="col-lg-3 col-md-2 portfolio-item filter-research-advisor"
+            >
+              <div class="portfolio-wrap">
+                <a
+                  href="https://yuanqidu.github.io/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="assets/img/people/yuanqi.jpeg" class="img-fluid" />
+                  <div>
+                    <h5>Yuanqi Du</h5>
+                    <h6>Graduate Research Advisor</h6>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-2 portfolio-item filter-research-advisor"
+            >
+              <div class="portfolio-wrap">
+                <a
+                  href="https://isaykatsman.github.io/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="assets/img/people/isay.jpeg" class="img-fluid" />
+                  <div>
+                    <h5>Isay Katsman</h5>
+                    <h6>Graduate Research Advisor</h6>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-2 portfolio-item filter-research-advisor"
+            >
+              <div class="portfolio-wrap">
+                <a
+                  href="https://xiuyuli.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="assets/img/people/xiuyu.png" class="img-fluid" />
+                  <div>
+                    <h5>Xiuyu Li</h5>
+                    <h6>Graduate Research Advisor</h6>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <!-- End Portfolio Section -->
+      <!-- End People Section -->
 
-      <!-- ======= Testimonials Section ======= -->
+      <!-- ======= Sponsors Section ======= -->
       <section id="sponsors" class="testimonials section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
@@ -549,7 +1150,7 @@
           </a>
         </div>
       </section>
-      <!-- End Testimonials Section -->
+      <!-- End Sponsors Section -->
     </main>
     <!-- End #main -->
 
