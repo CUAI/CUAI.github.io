@@ -438,11 +438,13 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.portfolio #portfolio-filters {
   padding: 0;
   margin: 0 auto 25px auto;
   list-style: none;
@@ -452,14 +454,7 @@ section {
   padding: 2px 15px;
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-}
-
-.portfolio #portfolio-flters li {
+.portfolio #portfolio-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px;
@@ -472,12 +467,12 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-filters li:hover,
+.portfolio #portfolio-filters li.filter-active {
   color: #0563bb;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.portfolio #portfolio-filters li:last-child {
   margin-right: 0;
 }
 
@@ -494,7 +489,7 @@ section {
 
 .portfolio .portfolio-wrap:hover {
   transition: 0.2s;
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 
 .portfolio h5 {

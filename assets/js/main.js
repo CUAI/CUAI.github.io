@@ -179,9 +179,18 @@
         itemSelector: '.portfolio-item'
       });
 
-      let portfolioFilters = select('#portfolio-flters li', true);
+      let portfolioFilters = select('#portfolio-filters li', true);
+      let defaultFilter = '.filter-current-member'; // Set the default filter value here
 
-      on('click', '#portfolio-flters li', function(e) {
+      // Apply default filter on page load
+      portfolioIsotope.arrange({
+        filter: defaultFilter
+      });
+      portfolioIsotope.on('arrangeComplete', function() {
+        AOS.refresh()
+      });
+
+      on('click', '#portfolio-filters li', function(e) {
         e.preventDefault();
         portfolioFilters.forEach(function(el) {
           el.classList.remove('filter-active');
