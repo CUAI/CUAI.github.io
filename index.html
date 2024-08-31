@@ -1,1204 +1,950 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Cornell University Artificial Intelligence</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-XT619215VS"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+  <title>Cornell University Artificial Intelligence</title>
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
 
-      gtag("config", "G-XT619215VS");
-    </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XT619215VS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-    <!-- Favicons -->
-    <link href="assets/img/logo/favicon.ico" rel="icon" />
-    <link href="assets/img/logo/apple-touch-icon.png" rel="apple-touch-icon" />
+    gtag("config", "G-XT619215VS");
+  </script>
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet"
-    />
+  <!-- Favicons -->
+  <link href="assets/img/logo/favicon.ico" rel="icon" />
+  <link href="assets/img/logo/apple-touch-icon.png" rel="apple-touch-icon" />
 
-    <!-- Vendor CSS Files -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script
-      type="text/javascript"
-      async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-chtml.js"
-    ></script>
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" />
 
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
+  <!-- Vendor CSS Files -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-chtml.js"></script>
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-    <!-- =======================================================
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+
+  <!-- =======================================================
   * Template Name: MyResume
   * Updated: Jul 27 2023 with Bootstrap v5.3.1
   * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-  </head>
+</head>
 
-  <body>
-    <!-- ======= Mobile nav toggle button ======= -->
-    <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-    <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
-    <!-- ======= Header ======= -->
-    <header id="header" class="d-flex flex-column justify-content-center">
-      <nav id="navbar" class="navbar nav-menu">
-        <ul>
-          <li>
-            <a href="#hero" class="nav-link scrollto active"
-              ><i class="bx bx-home"></i> <span>Home</span></a
-            >
-          </li>
-          <li>
-            <a href="#overview" class="nav-link scrollto"
-              ><i class="bx bx-brain"></i> <span>Overview</span></a
-            >
-          </li>
-          <li>
-            <a href="#apply" class="nav-link scrollto"
-              ><i class="bx bx-pencil"></i> <span>Apply</span></a
-            >
-          </li>
-          <li>
-            <a href="#publications" class="nav-link scrollto"
-              ><i class="bx bx-file-blank"></i> <span>Publications</span></a
-            >
-          </li>
-          <li>
-            <a href="#people" class="nav-link scrollto"
-              ><i class="bx bx-user"></i> <span>People</span></a
-            >
-          </li>
-          <li>
-            <a href="#sponsors" class="nav-link scrollto"
-              ><i class="bx bx-server"></i> <span>Sponsors</span></a
-            >
-          </li>
-        </ul>
-      </nav>
-      <!-- .nav-menu -->
-    </header>
-    <!-- End Header -->
+<body>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li>
+          <a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
+        </li>
+        <li>
+          <a href="#overview" class="nav-link scrollto"><i class="bx bx-brain"></i> <span>Overview</span></a>
+        </li>
+        <li>
+          <a href="#apply" class="nav-link scrollto"><i class="bx bx-pencil"></i> <span>Apply</span></a>
+        </li>
+        <li>
+          <a href="#publications" class="nav-link scrollto"><i class="bx bx-file-blank"></i>
+            <span>Publications</span></a>
+        </li>
+        <li>
+          <a href="#people" class="nav-link scrollto"><i class="bx bx-user"></i> <span>People</span></a>
+        </li>
+        <li>
+          <a href="#sponsors" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Sponsors</span></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- .nav-menu -->
+  </header>
+  <!-- End Header -->
 
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex flex-column justify-content-center">
-      <div class="container" data-aos="zoom-in" data-aos-delay="100">
-        <h1>Cornell University Artificial Intelligence</h1>
-        <p>
-          publishing research in
-          <span
-            class="typed"
-            data-typed-items="graphics, reinforcement learning, differential geometry, computer vision, natural language processing"
-          ></span>
-        </p>
-        <div class="social-links">
-          <a
-            href="https://github.com/CUAI"
-            class="github"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><i class="bx bxl-github"></i
-          ></a>
-          <a
-            href="https://www.facebook.com/cuaicornell"
-            class="facebook"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><i class="bx bxl-facebook"></i
-          ></a>
-          <a
-            href="https://twitter.com/cuai_cornell"
-            class="twitter"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><i class="bx bxl-twitter"></i
-          ></a>
-          <a
-            href="mailto:jlr429@cornell.edu"
-            class="mail"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><i class="bx bxl-gmail"></i
-          ></a>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Cornell University Artificial Intelligence</h1>
+      <p>
+        publishing research in
+        <span class="typed"
+          data-typed-items="graphics, reinforcement learning, differential geometry, computer vision, natural language processing"></span>
+      </p>
+      <div class="social-links">
+        <a href="https://github.com/CUAI" class="github" target="_blank" rel="noopener noreferrer"><i
+            class="bx bxl-github"></i></a>
+        <a href="https://www.facebook.com/cuaicornell" class="facebook" target="_blank" rel="noopener noreferrer"><i
+            class="bx bxl-facebook"></i></a>
+        <a href="https://twitter.com/cuai_cornell" class="twitter" target="_blank" rel="noopener noreferrer"><i
+            class="bx bxl-twitter"></i></a>
+        <a href="mailto:jlr429@cornell.edu" class="mail" target="_blank" rel="noopener noreferrer"><i
+            class="bx bxl-gmail"></i></a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="overview" class="about">
+      <div class="container max-w-screen-lg" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Overview</h2>
+          <p>
+            Cornell University Artificial Intelligence (CUAI) is an
+            undergraduate student organization that focuses on machine
+            learning research and publication. Each year, club members work
+            closely with club officers to aim to publish research papers at
+            top ML conferences like NeurIPS, ICML, etc. We welcome students
+            from all backgrounds and experience levels who are passionate
+            about AI/ML. The club meets weekly to discuss recent ML papers and
+            advance our own research projects. Our goal is to foster an
+            inclusive, collaborative environment where students can gain
+            hands-on research experience and connect with others with similar
+            interests.
+          </p>
         </div>
       </div>
     </section>
-    <!-- End Hero -->
+    <!-- End About Section -->
 
-    <main id="main">
-      <!-- ======= About Section ======= -->
-      <section id="overview" class="about">
-        <div class="container max-w-screen-lg" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Overview</h2>
-            <p>
-              Cornell University Artificial Intelligence (CUAI) is an
-              undergraduate student organization that focuses on machine
-              learning research and publication. Each year, club members work
-              closely with club officers to aim to publish research papers at
-              top ML conferences like NeurIPS, ICML, etc. We welcome students
-              from all backgrounds and experience levels who are passionate
-              about AI/ML. The club meets weekly to discuss recent ML papers and
-              advance our own research projects. Our goal is to foster an
-              inclusive, collaborative environment where students can gain
-              hands-on research experience and connect with others with similar
-              interests.
-            </p>
-          </div>
+    <!-- ======= Applications Section ======= -->
+    <section id="apply" class="">
+      <div class="container max-w-screen-lg" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Recruitment</h2>
+          <p>
+            CUAI is recruiting for Fall 2024! We encourage undergraduates from
+            all disciplines to apply, and will also be offering a limited
+            number of coffee chats on a first come, first served basis. Please
+            follow
+            <a href="https://forms.gle/KLX9TUtjgQ1AiJkL6" target="_blank" rel="noopener noreferrer">
+              <u>this link here</u>
+            </a>
+            to apply, and
+            <a href="https://forms.gle/t4XQoe8MYSbKvaUm8" target="_blank" rel="noopener noreferrer">
+              <u>this link here</u>
+            </a>
+            to indicate interest in a coffee chat and/or information session.
+          </p>
+          <p>
+            <em>Note: you may choose to fill out either or both forms, but only
+              submissions to the application form will be considered for
+              admission.</em>
+          </p>
         </div>
-      </section>
-      <!-- End About Section -->
+      </div>
+    </section>
 
-      <!-- ======= Applications Section ======= -->
-      <section id="apply" class="">
-        <div class="container max-w-screen-lg" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Recruitment</h2>
-            <p>
-              CUAI is recruiting for Fall 2023! We encourage undergraduates from
-              all disciplines to apply, and will also be offering a limited
-              number of coffee chats on a first come, first served basis. Please
-              follow
-              <a
-                href="https://forms.gle/4vj3zgA9QtS1Jjov7"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <u>this link here</u>
-              </a>
-              to apply, and
-              <a
-                href="https://forms.gle/4g1rL1JW1Z5qaNsZ8"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <u>this link here</u>
-              </a>
-              to indicate interest in a coffee chat and/or information session.
-            </p>
-            <p>
-              <em
-                >Note: you may choose to fill out either or both forms, but only
-                submissions to the application form will be considered for
-                admission.</em
-              >
-            </p>
-            <p>
-              <strong>
-                We will be holding an information session in on Saturday, August
-                26th, from 1-3 pm in Upson 142!
-              </strong>
-            </p>
-          </div>
+    <!-- End Applications Section -->
+
+    <!-- ======= Publications Section ======= -->
+    <section id="publications" class="publications">
+      <div class="container max-w-screen-lg m-auto" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Recent Publications</h2>
         </div>
-      </section>
-
-      <!-- End Applications Section -->
-
-      <!-- ======= Publications Section ======= -->
-      <section id="publications" class="publications">
-        <div class="container max-w-screen-lg m-auto" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Recent Publications</h2>
-          </div>
-          <div
-            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
-          >
-            <img
-              src="assets/img/projects/clip_dn.jpg"
-              class="w-48 h-auto place-self-center sm:col-start-1 sm: w-60"
-              loading="lazy"
-            />
-            <div class="text-base self-center sm:col-start-2 sm:pl-8">
-              <p class="font-bold text-lg">
-                Test-Time Distribution Normalization for Contrastively Learned
-                Visual-language Models
-              </p>
-              <p>
-                NeurIPS 2023.
-              </p>
-              <p>
-                Yifei Zhou*, Juntao Ren*, Fengyu Li*, Ramin Zabih, Ser-Nam Lim
-              </p>
-              <div class="grid grid-cols-2 gap-3 max-w-sm">
-                <a
-                  class="text-sm"
-                  href="https://doi.org/10.48550/arXiv.2302.11084"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    PDF
-                  </div>
-                </a>
-                <a
-                  class="text-sm"
-                  href="https://github.com/fengyuli-dev/distribution-normalization"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    CODE
-                  </div>
-                </a>
-              </div>
+        <div class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2">
+          <img src="assets/img/projects/clip_dn.jpg" class="w-48 h-auto place-self-center sm:col-start-1 sm: w-60"
+            loading="lazy" />
+          <div class="text-base self-center sm:col-start-2 sm:pl-8">
+            <p class="font-bold text-lg">
+              Test-Time Distribution Normalization for Contrastively Learned
+              Visual-language Models
+            </p>
+            <p>
+              NeurIPS 2023.
+            </p>
+            <p>
+              Yifei Zhou*, Juntao Ren*, Fengyu Li*, Ramin Zabih, Ser-Nam Lim
+            </p>
+            <div class="grid grid-cols-2 gap-3 max-w-sm">
+              <a class="text-sm" href="https://doi.org/10.48550/arXiv.2302.11084" target="_blank"
+                rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  PDF
+                </div>
+              </a>
+              <a class="text-sm" href="https://github.com/fengyuli-dev/distribution-normalization" target="_blank"
+                rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  CODE
+                </div>
+              </a>
             </div>
           </div>
-          <div
-            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
-          >
-            <img
-              src="assets/img/projects/rrnet.png"
-              class="w-48 h-auto place-self-center sm:col-start-1 sm: w-60"
-              loading="lazy"
-            />
-            <div class="text-base self-center sm:col-start-2 sm:pl-8">
-              <p class="font-bold text-lg">
-                Riemannian Residual Neural Networks
-              </p>
-              <p>
-                <!-- Under Review. Abridged in ICML 2022 Topology, Algebra, Geometry
+        </div>
+        <div class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2">
+          <img src="assets/img/projects/rrnet.png" class="w-48 h-auto place-self-center sm:col-start-1 sm: w-60"
+            loading="lazy" />
+          <div class="text-base self-center sm:col-start-2 sm:pl-8">
+            <p class="font-bold text-lg">
+              Riemannian Residual Neural Networks
+            </p>
+            <p>
+              <!-- Under Review. Abridged in ICML 2022 Topology, Algebra, Geometry
                 in Machine Learning Workshop. -->
-                NeurIPS 2023.
-              </p>
-              <p>
-                Isay Katsman*, Eric Chen*, Sidhanth Holalkere*, Anna Asch*,
-                Aaron Lou, Ser-Nam Lim, Christopher De Sa
-              </p>
-              <div class="grid grid-cols-2 gap-3 max-w-sm">
-                <a
-                  class="text-sm"
-                  href="https://drive.google.com/file/d/1yZ_uDbXNn4OfINR8LSe1WA0o5-ae4jq4/view"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    PDF
-                  </div>
-                </a>
-                <a
-                  class="text-sm"
-                  href="https://drive.google.com/file/d/1uWpzZ2SemGpIAClOSaVVQI-L4PZZ0xnU/view"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    POSTER
-                  </div>
-                </a>
-              </div>
+              NeurIPS 2023.
+            </p>
+            <p>
+              Isay Katsman*, Eric Chen*, Sidhanth Holalkere*, Anna Asch*,
+              Aaron Lou, Ser-Nam Lim, Christopher De Sa
+            </p>
+            <div class="grid grid-cols-2 gap-3 max-w-sm">
+              <a class="text-sm" href="https://drive.google.com/file/d/1yZ_uDbXNn4OfINR8LSe1WA0o5-ae4jq4/view"
+                target="_blank" rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  PDF
+                </div>
+              </a>
+              <a class="text-sm" href="https://drive.google.com/file/d/1uWpzZ2SemGpIAClOSaVVQI-L4PZZ0xnU/view"
+                target="_blank" rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  POSTER
+                </div>
+              </a>
             </div>
-          </div>
-          <div
-            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
-          >
-            <img
-              src="assets/img/projects/bt2.png"
-              class="w-48 h-auto place-self-center sm:col-start-1 sm: w-60"
-              loading="lazy"
-            />
-            <div class="text-base self-center sm:col-start-2 sm:pl-8">
-              <p class="font-bold text-lg">
-                \(BT^2\): Backward-compatible Training with Basis Transformation
-              </p>
-              <p>
-                ICCV 2023.
-              </p>
-              <p>
-                Yifei Zhou*, Zilu Li*, Abhinav Shrivastava, Hengshuang Zhao,
-                Antonio Torralba, Taipeng Tian, Ser-Nam Lim
-              </p>
-              <div class="grid grid-cols-2 gap-3 max-w-sm">
-                <a
-                  class="text-sm"
-                  href="https://arxiv.org/abs/2211.03989"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    PDF
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
-          >
-            <img
-              src="assets/img/projects/raycond.png"
-              class="w-48 h-auto place-self-center sm:col-start-1 sm: w-60"
-              loading="lazy"
-            />
-            <div class="text-base self-center sm:col-start-2 sm:pl-8">
-              <p class="font-bold text-lg">
-                Ray Conditioning: Trading Photo-consistency for Photo-realism in
-                Multi-view Image Generation
-              </p>
-              <p>
-                ICCV 2023.
-              </p>
-              <p>
-                Eric Chen, Sidhanth Holalkere, Ruyu Yan, Kai Zhang, Abe Davis
-              </p>
-              <div class="grid grid-cols-2 gap-3 max-w-sm">
-                <a
-                  class="text-sm"
-                  href="https://arxiv.org/abs/2304.13681"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    PDF
-                  </div>
-                </a>
-                <a
-                  class="text-sm"
-                  href="https://ray-cond.github.io/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    WEBSITE
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
-          >
-            <img
-              src="assets/img/projects/gapx.png"
-              class="w-48 h-auto place-self-center sm:col-start-1 sm: w-60"
-              loading="lazy"
-            />
-            <div class="text-base self-center sm:col-start-2 sm:pl-8">
-              <p class="font-bold text-lg">
-                GAPX: Generalized Autoregressive Paraphrase-identification X
-              </p>
-              <p>
-                NeurIPS 2022.
-              </p>
-              <p>
-                Yifei Zhou, Renyu Li, Hayden Housen, Ser-Nam Lim
-              </p>
-              <div class="grid grid-cols-2 gap-3 max-w-sm">
-                <a
-                  class="text-sm"
-                  href="https://arxiv.org/abs/2210.01979"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    PDF
-                  </div>
-                </a>
-                <a
-                  class="text-sm"
-                  href="https://github.com/YifeiZhou02/generalized_paraphrase_identification"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    CODE
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
-          >
-            <img
-              src="assets/img/projects/neqmode.png"
-              class="w-48 place-self-center sm:col-start-1 sm: w-60"
-              loading="lazy"
-            />
-            <div class="text-base self-center sm:col-start-2 sm:pl-8">
-              <p class="font-bold text-lg">
-                Equivariant Manifold Flows
-              </p>
-              <p>
-                NeurIPS 2021.
-              </p>
-              <p>
-                Isay Katsman*, Aaron Lou*, Derek Lim*, Qingxuan Jiang*, Ser-Nam
-                Lim, Christopher De Sa
-              </p>
-              <div class="grid grid-cols-2 gap-3 max-w-sm">
-                <a
-                  class="text-sm"
-                  href="https://arxiv.org/abs/2107.08596"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    PDF
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
-          >
-            <img
-              src="assets/img/projects/row_graphs.png"
-              class="w-48 place-self-center sm:col-start-1 sm: w-60"
-              loading="lazy"
-            />
-            <div class="text-base self-center sm:col-start-2 sm:pl-8">
-              <p class="font-bold text-lg">
-                Large Scale Learning on Non-Homophilous Graphs: New Benchmarks
-                and Strong Simple Methods
-              </p>
-              <p>
-                NeurIPS 2021.
-              </p>
-              <p>
-                Derek Lim*, Felix Hohne*, Xiuyu Li*, Sijia Linda Huang,
-                Vaishnavi Gupta, Omkar Bhalerao, Ser-Nam Lim
-              </p>
-              <div class="grid grid-cols-2 gap-3 max-w-sm">
-                <a
-                  class="text-sm"
-                  href="https://arxiv.org/abs/2110.14446"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    PDF
-                  </div>
-                </a>
-                <a
-                  class="text-sm"
-                  href="https://github.com/CUAI/Non-Homophily-Large-Scale"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    CODE
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
-          >
-            <img
-              src="assets/img/projects/correct_and_smooth.png"
-              class="w-48 place-self-center sm:col-start-1 sm: w-60"
-              loading="lazy"
-            />
-            <div class="text-base self-center sm:col-start-2 sm:pl-8">
-              <p class="font-bold text-lg">
-                Combining Label Propagation and Simple Models Out-performs Graph
-                Neural Networks
-              </p>
-              <p>
-                ICLR 2021.
-              </p>
-              <p>
-                Qian Huang*, Horace He*, Abhay Singh, Ser-Nam Lim, Austin Benson
-              </p>
-              <div class="grid grid-cols-2 gap-3 max-w-sm">
-                <a
-                  class="text-sm"
-                  href="https://openreview.net/forum?id=8E1-f3VhX1o"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    PDF
-                  </div>
-                </a>
-                <a
-                  class="text-sm"
-                  href="https://github.com/CUAI/CorrectAndSmooth"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    CODE
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
-          >
-            <img
-              src="assets/img/projects/nmode.png"
-              class="w-48 place-self-center sm:col-start-1 sm: w-60"
-              loading="lazy"
-            />
-            <div class="text-base self-center sm:col-start-2 sm:pl-8">
-              <p class="font-bold text-lg">
-                Neural Manifold Ordinary Differential Equations
-              </p>
-              <p>
-                NeurIPS 2020.
-              </p>
-              <p>
-                Aaron Lou*, Derek Lim*, Isay Katsman*, Leo Huang*, Qingxuan
-                Jiang, Ser-Nam Lim, Christopher De Sa
-              </p>
-              <div class="grid grid-cols-2 gap-3 max-w-sm">
-                <a
-                  class="text-sm"
-                  href="https://arxiv.org/abs/2006.10254"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    PDF
-                  </div>
-                </a>
-                <a
-                  class="text-sm"
-                  href="https://github.com/CUAI/Neural-Manifold-Ordinary-Differential-Equations"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    CODE
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
-          >
-            <img
-              src="assets/img/projects/bsr.png"
-              class="w-48 place-self-center sm:col-start-1 sm: w-60"
-              loading="lazy"
-            />
-            <div class="text-base self-center sm:col-start-2 sm:pl-8">
-              <p class="font-bold text-lg">
-                Better Set Representations For Relational Reasoning
-              </p>
-              <p>
-                NeurIPS 2020.
-              </p>
-              <p>
-                Qian Huang*, Horace He*, Abhay Singh, Yan Zhang, Ser-Nam Lim,
-                Austin Benson
-              </p>
-              <div class="grid grid-cols-3 gap-3">
-                <a
-                  class="text-sm"
-                  href="https://arxiv.org/abs/2003.04448"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    PDF
-                  </div>
-                </a>
-                <a
-                  class="text-sm"
-                  href="https://github.com/CUAI/BetterSetRepresentations"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    CODE
-                  </div>
-                </a>
-                <a
-                  class="text-sm"
-                  href="https://www.youtube.com/watch?v=Yhe5mZ-i6-Y&ab_channel=ObjectOriented"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    TALK
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
-          >
-            <img
-              src="assets/img/projects/frechet.png"
-              class="w-48 place-self-center sm:col-start-1 sm: w-60"
-              loading="lazy"
-            />
-            <div class="text-base self-center sm:col-start-2 sm:pl-8">
-              <p class="font-bold text-lg">
-                Differentiating through the Fréchet Mean
-              </p>
-              <p>
-                ICML 2020.
-              </p>
-              <p>
-                Aaron Lou*, Isay Katsman*, Qingxuan Jiang*, Serge Belongie,
-                Ser-Nam Lim, Christopher De Sa
-              </p>
-              <div class="grid grid-cols-3 gap-3">
-                <a
-                  class="text-sm"
-                  href="https://arxiv.org/abs/2003.04448"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    PDF
-                  </div>
-                </a>
-                <a
-                  class="text-sm"
-                  href="https://github.com/CUAI/BetterSetRepresentations"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    CODE
-                  </div>
-                </a>
-                <a
-                  class="text-sm"
-                  href="https://www.youtube.com/watch?v=Yhe5mZ-i6-Y&ab_channel=ObjectOriented"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    TALK
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
-          >
-            <img
-              src="assets/img/projects/enhancing.png"
-              class="w-48 place-self-center sm:col-start-1 sm: w-60"
-              loading="lazy"
-            />
-            <div class="text-base self-center sm:col-start-2 sm:pl-8">
-              <p class="font-bold text-lg">
-                Enhancing Adversarial Example Transferability with an
-                Intermediate Level Attack
-              </p>
-              <p>
-                ICCV 2019.
-              </p>
-              <p>
-                Qian Huang*, Isay Katsman*, Horace He*, Zeqi Gu*, Serge
-                Belongie, Ser-Nam Lim
-              </p>
-              <div class="grid grid-cols-4 gap-2">
-                <a
-                  class="text-sm"
-                  href="https://arxiv.org/abs/1907.10823"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    PDF
-                  </div>
-                </a>
-                <a
-                  class="text-sm"
-                  href="https://github.com/CUAI/Intermediate-Level-Attack"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    CODE
-                  </div>
-                </a>
-                <a
-                  class="text-sm"
-                  href="https://slideslive.com/38922555/contributed-talk-5-enhancing-adversarial-example-transferability-with-an-intermediate-level-attack"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    TALK
-                  </div>
-                </a>
-                <a
-                  class="text-sm"
-                  href="https://news.cornell.edu/stories/2019/11/cs-undergrads-research-sets-sights-image-hackers"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    CORNELL CHRONICLE
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2"
-          >
-            <img
-              src="assets/img/projects/decomp.png"
-              class="w-48 place-self-center sm:col-start-1 sm: w-60"
-              loading="lazy"
-            />
-            <div class="text-base self-center sm:col-start-2 sm:pl-8">
-              <p class="font-bold text-lg">
-                Adversarial Example Decomposition
-              </p>
-              <p>
-                ICML 2019 Workshop, Security and Privacy of Machine Learning.
-              </p>
-              <p>
-                Horace He, Aaron Lou*, Qingxuan Jiang*, Isay Katsman*, Serge
-                Belongie, Ser-Nam Lim
-              </p>
-              <div class="grid grid-cols-2 gap-2 max-w-sm">
-                <a
-                  class="text-sm"
-                  href="https://arxiv.org/abs/1812.01198"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <div class="bg-white p-1 rounded-md border-2 text-center">
-                    PDF
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="text-right">
-            <p>* indicates equal contribution</p>
           </div>
         </div>
-      </section>
-      <!-- End Facts Section -->
-
-      <!-- ======= Portfolio Section ======= -->
-      <section id="people" class="portfolio section-bg">
-        <div class="container max-w-screen-lg" data-aos="fade-up">
-          <div class="section-title">
-            <h2>People</h2>
-            <p>
-              Each year, a tight nit group of undergraduate students get
-              together to push out innovative machine learning research,
-              spanning multiple disciplines. We maintain a close relation with
-              graduate and faculty advisors who oversee our work. Many of our
-              alumni go on to accomplish great things across many disciplines
-              upon graduating.
+        <div class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2">
+          <img src="assets/img/projects/bt2.png" class="w-48 h-auto place-self-center sm:col-start-1 sm: w-60"
+            loading="lazy" />
+          <div class="text-base self-center sm:col-start-2 sm:pl-8">
+            <p class="font-bold text-lg">
+              \(BT^2\): Backward-compatible Training with Basis Transformation
             </p>
-          </div>
-
-          <div class="row">
-            <div
-              class="col-lg-12 d-flex"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <ul id="portfolio-filters">
-                <li data-filter=".filter-current-member" class="filter-active">
-                  Current Members
-                </li>
-                <li data-filter=".filter-research-advisor">
-                  Research Advisors
-                </li>
-                <li data-filter=".filter-alumni">Alumni</li>
-              </ul>
+            <p>
+              ICCV 2023.
+            </p>
+            <p>
+              Yifei Zhou*, Zilu Li*, Abhinav Shrivastava, Hengshuang Zhao,
+              Antonio Torralba, Taipeng Tian, Ser-Nam Lim
+            </p>
+            <div class="grid grid-cols-2 gap-3 max-w-sm">
+              <a class="text-sm" href="https://arxiv.org/abs/2211.03989" target="_blank" rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  PDF
+                </div>
+              </a>
             </div>
           </div>
+        </div>
+        <div class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2">
+          <img src="assets/img/projects/raycond.png" class="w-48 h-auto place-self-center sm:col-start-1 sm: w-60"
+            loading="lazy" />
+          <div class="text-base self-center sm:col-start-2 sm:pl-8">
+            <p class="font-bold text-lg">
+              Ray Conditioning: Trading Photo-consistency for Photo-realism in
+              Multi-view Image Generation
+            </p>
+            <p>
+              ICCV 2023.
+            </p>
+            <p>
+              Eric Chen, Sidhanth Holalkere, Ruyu Yan, Kai Zhang, Abe Davis
+            </p>
+            <div class="grid grid-cols-2 gap-3 max-w-sm">
+              <a class="text-sm" href="https://arxiv.org/abs/2304.13681" target="_blank" rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  PDF
+                </div>
+              </a>
+              <a class="text-sm" href="https://ray-cond.github.io/" target="_blank" rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  WEBSITE
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2">
+          <img src="assets/img/projects/gapx.png" class="w-48 h-auto place-self-center sm:col-start-1 sm: w-60"
+            loading="lazy" />
+          <div class="text-base self-center sm:col-start-2 sm:pl-8">
+            <p class="font-bold text-lg">
+              GAPX: Generalized Autoregressive Paraphrase-identification X
+            </p>
+            <p>
+              NeurIPS 2022.
+            </p>
+            <p>
+              Yifei Zhou, Renyu Li, Hayden Housen, Ser-Nam Lim
+            </p>
+            <div class="grid grid-cols-2 gap-3 max-w-sm">
+              <a class="text-sm" href="https://arxiv.org/abs/2210.01979" target="_blank" rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  PDF
+                </div>
+              </a>
+              <a class="text-sm" href="https://github.com/YifeiZhou02/generalized_paraphrase_identification"
+                target="_blank" rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  CODE
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2">
+          <img src="assets/img/projects/neqmode.png" class="w-48 place-self-center sm:col-start-1 sm: w-60"
+            loading="lazy" />
+          <div class="text-base self-center sm:col-start-2 sm:pl-8">
+            <p class="font-bold text-lg">
+              Equivariant Manifold Flows
+            </p>
+            <p>
+              NeurIPS 2021.
+            </p>
+            <p>
+              Isay Katsman*, Aaron Lou*, Derek Lim*, Qingxuan Jiang*, Ser-Nam
+              Lim, Christopher De Sa
+            </p>
+            <div class="grid grid-cols-2 gap-3 max-w-sm">
+              <a class="text-sm" href="https://arxiv.org/abs/2107.08596" target="_blank" rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  PDF
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2">
+          <img src="assets/img/projects/row_graphs.png" class="w-48 place-self-center sm:col-start-1 sm: w-60"
+            loading="lazy" />
+          <div class="text-base self-center sm:col-start-2 sm:pl-8">
+            <p class="font-bold text-lg">
+              Large Scale Learning on Non-Homophilous Graphs: New Benchmarks
+              and Strong Simple Methods
+            </p>
+            <p>
+              NeurIPS 2021.
+            </p>
+            <p>
+              Derek Lim*, Felix Hohne*, Xiuyu Li*, Sijia Linda Huang,
+              Vaishnavi Gupta, Omkar Bhalerao, Ser-Nam Lim
+            </p>
+            <div class="grid grid-cols-2 gap-3 max-w-sm">
+              <a class="text-sm" href="https://arxiv.org/abs/2110.14446" target="_blank" rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  PDF
+                </div>
+              </a>
+              <a class="text-sm" href="https://github.com/CUAI/Non-Homophily-Large-Scale" target="_blank"
+                rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  CODE
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2">
+          <img src="assets/img/projects/correct_and_smooth.png" class="w-48 place-self-center sm:col-start-1 sm: w-60"
+            loading="lazy" />
+          <div class="text-base self-center sm:col-start-2 sm:pl-8">
+            <p class="font-bold text-lg">
+              Combining Label Propagation and Simple Models Out-performs Graph
+              Neural Networks
+            </p>
+            <p>
+              ICLR 2021.
+            </p>
+            <p>
+              Qian Huang*, Horace He*, Abhay Singh, Ser-Nam Lim, Austin Benson
+            </p>
+            <div class="grid grid-cols-2 gap-3 max-w-sm">
+              <a class="text-sm" href="https://openreview.net/forum?id=8E1-f3VhX1o" target="_blank"
+                rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  PDF
+                </div>
+              </a>
+              <a class="text-sm" href="https://github.com/CUAI/CorrectAndSmooth" target="_blank"
+                rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  CODE
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2">
+          <img src="assets/img/projects/nmode.png" class="w-48 place-self-center sm:col-start-1 sm: w-60"
+            loading="lazy" />
+          <div class="text-base self-center sm:col-start-2 sm:pl-8">
+            <p class="font-bold text-lg">
+              Neural Manifold Ordinary Differential Equations
+            </p>
+            <p>
+              NeurIPS 2020.
+            </p>
+            <p>
+              Aaron Lou*, Derek Lim*, Isay Katsman*, Leo Huang*, Qingxuan
+              Jiang, Ser-Nam Lim, Christopher De Sa
+            </p>
+            <div class="grid grid-cols-2 gap-3 max-w-sm">
+              <a class="text-sm" href="https://arxiv.org/abs/2006.10254" target="_blank" rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  PDF
+                </div>
+              </a>
+              <a class="text-sm" href="https://github.com/CUAI/Neural-Manifold-Ordinary-Differential-Equations"
+                target="_blank" rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  CODE
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2">
+          <img src="assets/img/projects/bsr.png" class="w-48 place-self-center sm:col-start-1 sm: w-60"
+            loading="lazy" />
+          <div class="text-base self-center sm:col-start-2 sm:pl-8">
+            <p class="font-bold text-lg">
+              Better Set Representations For Relational Reasoning
+            </p>
+            <p>
+              NeurIPS 2020.
+            </p>
+            <p>
+              Qian Huang*, Horace He*, Abhay Singh, Yan Zhang, Ser-Nam Lim,
+              Austin Benson
+            </p>
+            <div class="grid grid-cols-3 gap-3">
+              <a class="text-sm" href="https://arxiv.org/abs/2003.04448" target="_blank" rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  PDF
+                </div>
+              </a>
+              <a class="text-sm" href="https://github.com/CUAI/BetterSetRepresentations" target="_blank"
+                rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  CODE
+                </div>
+              </a>
+              <a class="text-sm" href="https://www.youtube.com/watch?v=Yhe5mZ-i6-Y&ab_channel=ObjectOriented"
+                target="_blank" rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  TALK
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2">
+          <img src="assets/img/projects/frechet.png" class="w-48 place-self-center sm:col-start-1 sm: w-60"
+            loading="lazy" />
+          <div class="text-base self-center sm:col-start-2 sm:pl-8">
+            <p class="font-bold text-lg">
+              Differentiating through the Fréchet Mean
+            </p>
+            <p>
+              ICML 2020.
+            </p>
+            <p>
+              Aaron Lou*, Isay Katsman*, Qingxuan Jiang*, Serge Belongie,
+              Ser-Nam Lim, Christopher De Sa
+            </p>
+            <div class="grid grid-cols-3 gap-3">
+              <a class="text-sm" href="https://arxiv.org/abs/2003.04448" target="_blank" rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  PDF
+                </div>
+              </a>
+              <a class="text-sm" href="https://github.com/CUAI/BetterSetRepresentations" target="_blank"
+                rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  CODE
+                </div>
+              </a>
+              <a class="text-sm" href="https://www.youtube.com/watch?v=Yhe5mZ-i6-Y&ab_channel=ObjectOriented"
+                target="_blank" rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  TALK
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2">
+          <img src="assets/img/projects/enhancing.png" class="w-48 place-self-center sm:col-start-1 sm: w-60"
+            loading="lazy" />
+          <div class="text-base self-center sm:col-start-2 sm:pl-8">
+            <p class="font-bold text-lg">
+              Enhancing Adversarial Example Transferability with an
+              Intermediate Level Attack
+            </p>
+            <p>
+              ICCV 2019.
+            </p>
+            <p>
+              Qian Huang*, Isay Katsman*, Horace He*, Zeqi Gu*, Serge
+              Belongie, Ser-Nam Lim
+            </p>
+            <div class="grid grid-cols-4 gap-2">
+              <a class="text-sm" href="https://arxiv.org/abs/1907.10823" target="_blank" rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  PDF
+                </div>
+              </a>
+              <a class="text-sm" href="https://github.com/CUAI/Intermediate-Level-Attack" target="_blank"
+                rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  CODE
+                </div>
+              </a>
+              <a class="text-sm"
+                href="https://slideslive.com/38922555/contributed-talk-5-enhancing-adversarial-example-transferability-with-an-intermediate-level-attack"
+                target="_blank" rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  TALK
+                </div>
+              </a>
+              <a class="text-sm"
+                href="https://news.cornell.edu/stories/2019/11/cs-undergrads-research-sets-sights-image-hackers"
+                target="_blank" rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  CORNELL CHRONICLE
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="grid row-auto gap-2 flex mt-8 place-content-start sm:grid-col-2">
+          <img src="assets/img/projects/decomp.png" class="w-48 place-self-center sm:col-start-1 sm: w-60"
+            loading="lazy" />
+          <div class="text-base self-center sm:col-start-2 sm:pl-8">
+            <p class="font-bold text-lg">
+              Adversarial Example Decomposition
+            </p>
+            <p>
+              ICML 2019 Workshop, Security and Privacy of Machine Learning.
+            </p>
+            <p>
+              Horace He, Aaron Lou*, Qingxuan Jiang*, Isay Katsman*, Serge
+              Belongie, Ser-Nam Lim
+            </p>
+            <div class="grid grid-cols-2 gap-2 max-w-sm">
+              <a class="text-sm" href="https://arxiv.org/abs/1812.01198" target="_blank" rel="noopener noreferrer">
+                <div class="bg-white p-1 rounded-md border-2 text-center">
+                  PDF
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="text-right">
+          <p>* indicates equal contribution</p>
+        </div>
+      </div>
+    </section>
+    <!-- End Facts Section -->
 
-          <div
-            class="row portfolio-container max-w-screen-xl m-auto"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <!-- Current Members -->
-            <script>
-              document.addEventListener("DOMContentLoaded", (event) => {
-                const members = [
-                  {
-                    name: "Sidhanth Holalkere",
-                    role: "Co-President",
-                    link: "https://sholalkere.github.io/",
-                    img: "assets/img/people/sid.jpg",
-                    filter: "filter-current-member",
-                  },
-                  {
-                    name: "Juntao Ren",
-                    role: "Co-President",
-                    link: "https://jren03.github.io/",
-                    img: "assets/img/people/juntao.jpg",
-                    filter: "filter-current-member",
-                  },
-                  {
-                    name: "Eric Chen",
-                    role: "Member",
-                    link: "https://echen01.github.io/",
-                    img: "assets/img/people/eric.jpg",
-                    filter: "filter-current-member",
-                  },
-                  {
-                    name: "Zilu Li",
-                    role: "Member",
-                    link: "https://zilulii.github.io",
-                    img: "assets/img/people/zilu.jpg",
-                    filter: "filter-current-member",
-                  },
-                  {
-                    name: "Fengyu Li",
-                    role: "Member",
-                    link: "https://fengyuli.dev/",
-                    img: "assets/img/people/fengyu.jpeg",
-                    filter: "filter-current-member",
-                  },
-                  {
-                    name: "Zichen Wang",
-                    role: "Member",
-                    link:
-                      "https://scholar.google.com/citations?user=6W_ACEEAAAAJ&hl=en",
-                    img: "assets/img/people/zichen.jpg",
-                    filter: "filter-current-member",
-                  },
-                  {
-                    name: "Owen Oertell",
-                    role: "Member",
-                    link: "https://owenoertell.com/",
-                    img: "assets/img/people/owen.jpg",
-                    filter: "filter-current-member",
-                  },
-                  {
-                    name: "Yijia Dai",
-                    role: "Member",
-                    link: "https://www.linkedin.com/in/yijia-dai-7b76b01b9/",
-                    img: "assets/img/people/yijia.jpg",
-                    filter: "filter-current-member",
-                  },
-                  {
-                    name: "Yolanda Wang",
-                    role: "Member",
-                    link: "https://www.linkedin.com/in/yufan--wang/",
-                    img: "assets/img/people/yolanda.jpg",
-                    filter: "filter-current-member",
-                  },
-                  {
-                    name: "Vivian Chen",
-                    role: "Member",
-                    link: "https://www.linkedin.com/in/vivian-chen-b6a178254/",
-                    img: "assets/img/people/vivian.jpg",
-                    filter: "filter-current-member",
-                  },
-                  {
-                    name: "Tyler King",
-                    role: "Member",
-                    link: "https://tylertking.com/",
-                    img: "assets/img/people/tyler.jpg",
-                    filter: "filter-current-member",
-                  },
-                  {
-                    name: "Žiga Kovačič",
-                    role: "Member",
-                    link: "https://zzigak.github.io/",
-                    img: "assets/img/people/ziga.png",
-                    filter: "filter-current-member",
-                  },
-                  {
-                    name: "Michael Ngo",
-                    role: "Member",
-                    link: "https://www.linkedin.com/in/mic-ngo/",
-                    img: "assets/img/people/michael.jpg",
-                    filter: "filter-current-member",
-                  },
-                  {
-                    name: "Daniel Wang",
-                    role: "Member",
-                    link: "",
-                    img: "assets/img/people/daniel.png",
-                    filter: "filter-current-member",
-                  },
-                  {
-                    name: "Bradley Guo",
-                    role: "Member",
-                    link: "https://www.linkedin.com/in/bradley-guo-373643247/",
-                    img: "assets/img/people/bradley.jpg",
-                    filter: "filter-current-member",
-                  },
-                  {
-                    name: "Prof. Ramin Zabih",
-                    role: "Affiliated Faculty",
-                    link: "https://www.cs.cornell.edu/rdz/",
-                    img: "assets/img/people/ramin.jpg",
-                    filter: "filter-research-advisor",
-                  },
-                  {
-                    name: "Prof. Serge Belongie",
-                    role: "Affiliated Faculty",
-                    link:
-                      "https://blogs.cornell.edu/techfaculty/serge-belongie/",
-                    img: "assets/img/people/serge.jpg",
-                    filter: "filter-research-advisor",
-                  },
-                  {
-                    name: "Prof. Chris de Sa",
-                    role: "Affiliated Faculty",
-                    link: "https://www.cs.cornell.edu/~cdesa/",
-                    img: "assets/img/people/chris.jpg",
-                    filter: "filter-research-advisor",
-                  },
-                  {
-                    name: "Prof. Wen Sun",
-                    role: "Affiliated Faculty",
-                    link: "https://wensun.github.io/",
-                    img: "assets/img/people/wen.png",
-                    filter: "filter-research-advisor",
-                  },
-                  {
-                    name: "Prof. Bharath Hariharan",
-                    role: "Affiliated Faculty",
-                    link: "https://www.cs.cornell.edu/~bharathh/",
-                    img: "assets/img/people/bharath.jpg",
-                    filter: "filter-research-advisor",
-                  },
-                  {
-                    name: "Prof. Kavita Bala",
-                    role: "Affiliated Faculty",
-                    link: "https://www.cs.cornell.edu/~kb/",
-                    img: "assets/img/people/kb.jpeg",
-                    filter: "filter-research-advisor",
-                  },
-                  {
-                    name: "Prof. Yoav Artzi",
-                    role: "Affiliated Faculty",
-                    link: "https://yoavartzi.com/",
-                    img: "assets/img/people/yoav.jpeg",
-                    filter: "filter-research-advisor",
-                  },
-                  {
-                    name: "Prof. Sanjiban Choudhury",
-                    role: "Affiliated Faculty",
-                    link: "https://www.sanjibanchoudhury.com/",
-                    img: "assets/img/people/sanjiban.jpeg",
-                    filter: "filter-research-advisor",
-                  },
-                  {
-                    name: "Prof. Ser-Nam Lim",
-                    role: "Affiliated Faculty",
-                    link: "https://sites.google.com/site/sernam",
-                    img: "assets/img/people/sernam.jpeg",
-                    filter: "filter-research-advisor",
-                  },
-                  {
-                    name: "Prof. Abe Davis",
-                    role: "Affiliated Faculty",
-                    link: "https://www.cs.cornell.edu/abe/group/",
-                    img: "assets/img/people/abe.png",
-                    filter: "filter-research-advisor",
-                  },
-                  {
-                    name: "Vaishnavi Gupta",
-                    role: "Graduate Research Advisor",
-                    link: "https://vaishnavigupta.com/",
-                    img: "assets/img/people/vaishnavi.jpg",
-                    filter: "filter-research-advisor",
-                  },
-                  {
-                    name: "Yuanqi Du",
-                    role: "Graduate Research Advisor",
-                    link: "https://yuanqidu.github.io/",
-                    img: "assets/img/people/yuanqi.jpeg",
-                    filter: "filter-research-advisor",
-                  },
-                  {
-                    name: "Yifei Zhou",
-                    role: "Berkeley AI Research Lab",
-                    link: "https://yifeizhou02.github.io/",
-                    img: "assets/img/people/yifei.jpg",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Isay Katsman",
-                    role: "Co-Founder, Yale CS PhD",
-                    link: "https://isaykatsman.github.io/",
-                    img: "assets/img/people/isay.jpeg",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Xiuyu Li",
-                    role: "Berkeley AI Research Lab",
-                    link: "https://xiuyuli.com/",
-                    img: "assets/img/people/xiuyu.png",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Felix Hohne",
-                    role: "Data Scientist, Meta",
-                    link: "https://www.linkedin.com/in/felix-hohne-fmh42/",
-                    img: "assets/img/people/felix.jpeg",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Omkar Bhalerao",
-                    role: "Alumnus",
-                    link:
-                      "https://www.linkedin.com/in/omkar-bhalerao-88089016a/",
-                    img: "assets/img/people/omkar.jpeg",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Anna Asch",
-                    role: "UChicago Applied Math PhD",
-                    link: "https://www.linkedin.com/in/anna-asch/",
-                    img: "assets/img/people/anna.png",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Ruyu Yan",
-                    role: "Princeton CS PhD",
-                    link: "https://yanruyu126.github.io/",
-                    img: "assets/img/people/ruyu.png",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Abhay Singh",
-                    role: "Citadel Quant Research",
-                    link: "https://www.linkedin.com/in/as2626/",
-                    img: "assets/img/people/abhay.png",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Linda Huang",
-                    role: "Google Software Engineer",
-                    link: "https://www.linkedin.com/in/linda-huang-sijia/",
-                    img: "assets/img/people/linda.jpeg",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Franklin Deng",
-                    role: "Disney Data Scientist",
-                    link:
-                      "https://www.linkedin.com/in/franklin-tongxiang-deng/",
-                    img: "assets/img/people/franklin.jpeg",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Aaron Lou",
-                    role: "Stanford CS PhD",
-                    link: "https://aaronlou.com/",
-                    img: "assets/img/people/aaron.jpeg",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Qian Huang",
-                    role: "Stanford CS PhD",
-                    link: "https://q-hwang.github.io/",
-                    img: "assets/img/people/qian.jpeg",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Derek Lim",
-                    role: "MIT EECS PhD",
-                    link: "https://cptq.github.io/",
-                    img: "assets/img/people/derek.jpg",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Max Jiang",
-                    role: "MIT ORIE PhD",
-                    link: "https://mathreader.github.io/",
-                    img: "assets/img/people/max.jpg",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Quintessa Qiao",
-                    role: "Meta Software Engineer",
-                    link: "https://www.linkedin.com/in/quintessaqiao/",
-                    img: "assets/img/people/quintessa.jpeg",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Horace He",
-                    role: "Co-Founder, Meta Research Engineer",
-                    link: "https://horace.io/",
-                    img: "assets/img/people/horace.jpeg",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Zhiqiu Lin",
-                    role: "CMU Robotics PhD",
-                    link: "https://linzhiqiu.github.io/",
-                    img: "assets/img/people/zhiqiu.jpeg",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Tianxing Jiang",
-                    role: "Citadel Software Engineer",
-                    link: "https://www.linkedin.com/in/tianxing-jiang/",
-                    img: "assets/img/people/tianxing.jpeg",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Zeqi Gu",
-                    role: "Cornell Tech PhD",
-                    link: "https://www.cs.cornell.edu/~zeqigu/",
-                    img: "assets/img/people/zeqi.jpeg",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Frank Li",
-                    role: "Microsoft Data Scientist",
-                    link: "https://www.linkedin.com/in/frank-li-b7b0272a/",
-                    img: "assets/img/people/frank.jpg",
-                    filter: "filter-alumni",
-                  },
-                  {
-                    name: "Pian Pawakapan",
-                    role: "SambaNova ML Engineer",
-                    link: "https://www.linkedin.com/in/pianpwk/",
-                    img: "assets/img/people/pian.jpeg",
-                    filter: "filter-alumni",
-                  },
-                ];
+    <!-- ======= Portfolio Section ======= -->
+    <section id="people" class="portfolio section-bg">
+      <div class="container max-w-screen-lg" data-aos="fade-up">
+        <div class="section-title">
+          <h2>People</h2>
+          <p>
+            Each year, a tight nit group of undergraduate students get
+            together to push out innovative machine learning research,
+            spanning multiple disciplines. We maintain a close relation with
+            graduate and faculty advisors who oversee our work. Many of our
+            alumni go on to accomplish great things across many disciplines
+            upon graduating.
+          </p>
+        </div>
 
-                let html = "";
-                members.forEach((member) => {
-                  html += `
+        <div class="row">
+          <div class="col-lg-12 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-filters">
+              <li data-filter=".filter-current-member" class="filter-active">
+                Current Members
+              </li>
+              <li data-filter=".filter-research-advisor">
+                Research Advisors
+              </li>
+              <li data-filter=".filter-alumni">Alumni</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container max-w-screen-xl m-auto" data-aos="fade-up" data-aos-delay="200">
+          <!-- Current Members -->
+          <script>
+            document.addEventListener("DOMContentLoaded", (event) => {
+              const members = [
+                {
+                  name: "Owen Oertell",
+                  role: "Co-President",
+                  link: "https://owenoertell.com/",
+                  img: "assets/img/people/owen.jpg",
+                  filter: "filter-current-member",
+                },
+                {
+                  name: "Žiga Kovačič",
+                  role: "Co-President",
+                  link: "https://zzigak.github.io/",
+                  img: "assets/img/people/ziga.png",
+                  filter: "filter-current-member",
+                },
+                {
+                  name: "Sidhanth Holalkere",
+                  role: "Intern, Tesla Autopilot",
+                  link: "https://sholalkere.github.io/",
+                  img: "assets/img/people/sid.jpg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Juntao Ren",
+                  role: "Member",
+                  link: "https://jren03.github.io/",
+                  img: "assets/img/people/juntao.jpg",
+                  filter: "filter-current-member",
+                },
+                {
+                  name: "Eric Chen",
+                  role: "MIT CS PhD",
+                  link: "https://echen01.github.io/",
+                  img: "assets/img/people/eric.jpg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Zilu Li",
+                  role: "UCSD CS PhD",
+                  link: "https://zilulii.github.io",
+                  img: "assets/img/people/zilu.jpg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Fengyu Li",
+                  role: "Stanford CS MS",
+                  link: "https://fengyuli.dev/",
+                  img: "assets/img/people/fengyu.jpeg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Zichen Wang",
+                  role: "UMich CS PhD",
+                  link:
+                    "https://scholar.google.com/citations?user=6W_ACEEAAAAJ&hl=en",
+                  img: "assets/img/people/zichen.jpg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Yijia Dai",
+                  role: "Member",
+                  link: "https://www.linkedin.com/in/yijia-dai-7b76b01b9/",
+                  img: "assets/img/people/yijia.jpg",
+                  filter: "filter-current-member",
+                },
+                {
+                  name: "Yolanda Wang",
+                  role: "Stanford CS MS",
+                  link: "https://www.linkedin.com/in/yufan--wang/",
+                  img: "assets/img/people/yolanda.jpg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Vivian Chen",
+                  role: "Member",
+                  link: "https://www.linkedin.com/in/vivian-chen-b6a178254/",
+                  img: "assets/img/people/vivian.jpg",
+                  filter: "filter-current-member",
+                },
+                {
+                  name: "Tyler King",
+                  role: "Member",
+                  link: "https://tylertking.com/",
+                  img: "assets/img/people/tyler.jpg",
+                  filter: "filter-current-member",
+                },
+                
+                {
+                  name: "Michael Ngo",
+                  role: "Member",
+                  link: "https://www.linkedin.com/in/mic-ngo/",
+                  img: "assets/img/people/michael.jpg",
+                  filter: "filter-current-member",
+                },
+                {
+                  name: "Daniel Wang",
+                  role: "Member",
+                  link: "",
+                  img: "assets/img/people/daniel.png",
+                  filter: "filter-current-member",
+                },
+                {
+                  name: "Bradley Guo",
+                  role: "Member",
+                  link: "https://www.linkedin.com/in/bradley-guo-373643247/",
+                  img: "assets/img/people/bradley.jpg",
+                  filter: "filter-current-member",
+                },
+                {
+                  name: "Prof. Ramin Zabih",
+                  role: "Affiliated Faculty",
+                  link: "https://www.cs.cornell.edu/rdz/",
+                  img: "assets/img/people/ramin.jpg",
+                  filter: "filter-research-advisor",
+                },
+                {
+                  name: "Prof. Serge Belongie",
+                  role: "Affiliated Faculty",
+                  link:
+                    "https://blogs.cornell.edu/techfaculty/serge-belongie/",
+                  img: "assets/img/people/serge.jpg",
+                  filter: "filter-research-advisor",
+                },
+                {
+                  name: "Prof. Chris de Sa",
+                  role: "Affiliated Faculty",
+                  link: "https://www.cs.cornell.edu/~cdesa/",
+                  img: "assets/img/people/chris.jpg",
+                  filter: "filter-research-advisor",
+                },
+                {
+                  name: "Prof. Wen Sun",
+                  role: "Affiliated Faculty",
+                  link: "https://wensun.github.io/",
+                  img: "assets/img/people/wen.png",
+                  filter: "filter-research-advisor",
+                },
+                {
+                  name: "Prof. Bharath Hariharan",
+                  role: "Affiliated Faculty",
+                  link: "https://www.cs.cornell.edu/~bharathh/",
+                  img: "assets/img/people/bharath.jpg",
+                  filter: "filter-research-advisor",
+                },
+                {
+                  name: "Prof. Kavita Bala",
+                  role: "Affiliated Faculty",
+                  link: "https://www.cs.cornell.edu/~kb/",
+                  img: "assets/img/people/kb.jpeg",
+                  filter: "filter-research-advisor",
+                },
+                {
+                  name: "Prof. Yoav Artzi",
+                  role: "Affiliated Faculty",
+                  link: "https://yoavartzi.com/",
+                  img: "assets/img/people/yoav.jpeg",
+                  filter: "filter-research-advisor",
+                },
+                {
+                  name: "Prof. Sanjiban Choudhury",
+                  role: "Affiliated Faculty",
+                  link: "https://www.sanjibanchoudhury.com/",
+                  img: "assets/img/people/sanjiban.jpeg",
+                  filter: "filter-research-advisor",
+                },
+                {
+                  name: "Prof. Ser-Nam Lim",
+                  role: "Affiliated Faculty",
+                  link: "https://sites.google.com/site/sernam",
+                  img: "assets/img/people/sernam.jpeg",
+                  filter: "filter-research-advisor",
+                },
+                {
+                  name: "Prof. Abe Davis",
+                  role: "Affiliated Faculty",
+                  link: "https://www.cs.cornell.edu/abe/group/",
+                  img: "assets/img/people/abe.png",
+                  filter: "filter-research-advisor",
+                },
+                {
+                  name: "Vaishnavi Gupta",
+                  role: "Graduate Research Advisor",
+                  link: "https://vaishnavigupta.com/",
+                  img: "assets/img/people/vaishnavi.jpg",
+                  filter: "filter-research-advisor",
+                },
+                {
+                  name: "Yuanqi Du",
+                  role: "Graduate Research Advisor",
+                  link: "https://yuanqidu.github.io/",
+                  img: "assets/img/people/yuanqi.jpeg",
+                  filter: "filter-research-advisor",
+                },
+                {
+                  name: "Yifei Zhou",
+                  role: "Berkeley AI Research Lab",
+                  link: "https://yifeizhou02.github.io/",
+                  img: "assets/img/people/yifei.jpg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Isay Katsman",
+                  role: "Co-Founder, Yale CS PhD",
+                  link: "https://isaykatsman.github.io/",
+                  img: "assets/img/people/isay.jpeg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Xiuyu Li",
+                  role: "Berkeley AI Research Lab",
+                  link: "https://xiuyuli.com/",
+                  img: "assets/img/people/xiuyu.png",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Felix Hohne",
+                  role: "Data Scientist, Meta",
+                  link: "https://www.linkedin.com/in/felix-hohne-fmh42/",
+                  img: "assets/img/people/felix.jpeg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Omkar Bhalerao",
+                  role: "Alumnus",
+                  link:
+                    "https://www.linkedin.com/in/omkar-bhalerao-88089016a/",
+                  img: "assets/img/people/omkar.jpeg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Anna Asch",
+                  role: "UChicago Applied Math PhD",
+                  link: "https://www.linkedin.com/in/anna-asch/",
+                  img: "assets/img/people/anna.png",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Ruyu Yan",
+                  role: "Princeton CS PhD",
+                  link: "https://yanruyu126.github.io/",
+                  img: "assets/img/people/ruyu.png",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Abhay Singh",
+                  role: "Citadel Quant Research",
+                  link: "https://www.linkedin.com/in/as2626/",
+                  img: "assets/img/people/abhay.png",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Linda Huang",
+                  role: "Google Software Engineer",
+                  link: "https://www.linkedin.com/in/linda-huang-sijia/",
+                  img: "assets/img/people/linda.jpeg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Franklin Deng",
+                  role: "Disney Data Scientist",
+                  link:
+                    "https://www.linkedin.com/in/franklin-tongxiang-deng/",
+                  img: "assets/img/people/franklin.jpeg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Aaron Lou",
+                  role: "Stanford CS PhD",
+                  link: "https://aaronlou.com/",
+                  img: "assets/img/people/aaron.jpeg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Qian Huang",
+                  role: "Stanford CS PhD",
+                  link: "https://q-hwang.github.io/",
+                  img: "assets/img/people/qian.jpeg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Derek Lim",
+                  role: "MIT EECS PhD",
+                  link: "https://cptq.github.io/",
+                  img: "assets/img/people/derek.jpg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Max Jiang",
+                  role: "MIT ORIE PhD",
+                  link: "https://mathreader.github.io/",
+                  img: "assets/img/people/max.jpg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Quintessa Qiao",
+                  role: "Meta Software Engineer",
+                  link: "https://www.linkedin.com/in/quintessaqiao/",
+                  img: "assets/img/people/quintessa.jpeg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Horace He",
+                  role: "Co-Founder, Meta Research Engineer",
+                  link: "https://horace.io/",
+                  img: "assets/img/people/horace.jpeg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Zhiqiu Lin",
+                  role: "CMU Robotics PhD",
+                  link: "https://linzhiqiu.github.io/",
+                  img: "assets/img/people/zhiqiu.jpeg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Tianxing Jiang",
+                  role: "Citadel Software Engineer",
+                  link: "https://www.linkedin.com/in/tianxing-jiang/",
+                  img: "assets/img/people/tianxing.jpeg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Zeqi Gu",
+                  role: "Cornell Tech PhD",
+                  link: "https://www.cs.cornell.edu/~zeqigu/",
+                  img: "assets/img/people/zeqi.jpeg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Frank Li",
+                  role: "Microsoft Data Scientist",
+                  link: "https://www.linkedin.com/in/frank-li-b7b0272a/",
+                  img: "assets/img/people/frank.jpg",
+                  filter: "filter-alumni",
+                },
+                {
+                  name: "Pian Pawakapan",
+                  role: "SambaNova ML Engineer",
+                  link: "https://www.linkedin.com/in/pianpwk/",
+                  img: "assets/img/people/pian.jpeg",
+                  filter: "filter-alumni",
+                },
+              ];
+
+              let html = "";
+              members.forEach((member) => {
+                html += `
                     <div class="col-lg-3 col-md-2 portfolio-item ${member.filter}">
                       <div class="portfolio-wrap">
                         <a href="${member.link}" target="_blank" rel="noopener noreferrer">
@@ -1211,76 +957,69 @@
                       </div>
                     </div>
                   `;
-                });
-
-                document.querySelector(".portfolio-container").innerHTML = html;
               });
-            </script>
-          </div>
-        </div>
-      </section>
-      <!-- End People Section -->
 
-      <!-- ======= Sponsors Section ======= -->
-      <section id="sponsors" class="testimonials section-bg">
-        <div class="container max-w-screen-lg" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Sponsors</h2>
-            <p>Sponsored by and in Direct Collaboration with Facebook AI</p>
-          </div>
-          <div class="object-fit-contain max-w-lg mx-auto place-self-center">
-            <a
-              href="https://research.fb.com/category/machine-learning/"
-              target="_blank"
-              role="button"
-              rel="noopener noreferrer"
-            >
-              <img src="assets/img/sponsors/fair.jpeg" />
-            </a>
-          </div>
-        </div>
-      </section>
-      <!-- End Sponsors Section -->
-    </main>
-    <!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-      <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>CUAI</span></strong
-          >. All Rights Reserved
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: [license-url] -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              document.querySelector(".portfolio-container").innerHTML = html;
+            });
+          </script>
         </div>
       </div>
-    </footer>
-    <!-- End Footer -->
+    </section>
+    <!-- End People Section -->
 
-    <div id="preloader"></div>
-    <a
-      href="#"
-      class="back-to-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+    <!-- ======= Sponsors Section ======= -->
+    <section id="sponsors" class="testimonials section-bg">
+      <div class="container max-w-screen-lg" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Sponsors</h2>
+          <p>Sponsored by and in Direct Collaboration with Facebook AI</p>
+        </div>
+        <div class="object-fit-contain max-w-lg mx-auto place-self-center">
+          <a href="https://research.fb.com/category/machine-learning/" target="_blank" role="button"
+            rel="noopener noreferrer">
+            <img src="assets/img/sponsors/fair.jpeg" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Sponsors Section -->
+  </main>
+  <!-- End #main -->
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/typed.js/typed.umd.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>CUAI</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: [license-url] -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
 
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
-  </body>
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
