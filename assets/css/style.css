@@ -399,6 +399,12 @@ section {
   margin-bottom: 0;
 }
 
+.recruitment-link,
+.recruitment-link:hover {
+  color: #0563bb;
+  text-decoration: underline;
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -453,6 +459,25 @@ section {
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+}
+
+/* Center an incomplete final row in the current-members grid. */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .filter-current-member.current-member-tail-1,
+  .filter-current-member.current-member-tail-2,
+  .filter-current-member.current-member-tail-3,
+  .filter-current-member.current-member-tail-4,
+  .filter-current-member.current-member-tail-5 {
+    translate: 50% 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .filter-current-member.current-member-tail-1,
+  .filter-current-member.current-member-tail-2,
+  .filter-current-member.current-member-tail-3 {
+    translate: 50% 0;
+  }
 }
 
 .portfolio #portfolio-filters {

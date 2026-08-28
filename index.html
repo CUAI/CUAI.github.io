@@ -139,7 +139,7 @@
         <div class="section-title">
           <h2>Recruitment</h2>
           <p>
-            CUAI Recruiting for Fall 2025 has concluded. Check back in Fall 2026 for recruitment opportunities.
+            Register to coffee chat with a CUAI member for FA26 <a class="recruitment-link" href="https://forms.gle/MdUPHQhZtQKhPRW99">here</a>. Info session dates and application forthcoming. We look forward to meeting you!
           </p>
         </div>
       </div>
@@ -741,13 +741,6 @@
                     filter: "filter-current-member",
                 },
                 {
-                    name: "Smriti Kumar",
-                    role: "Member",
-                    link: "https://www.linkedin.com/in/smriti-kumar323/",
-                    img: "assets/img/people/smriti.jpg",
-                    filter: "filter-current-member",
-                },
-                {
                     name: "Cory Fan",
                     role: "Member",
                     link: "https://www.linkedin.com/in/cory-fan/",
@@ -990,9 +983,21 @@
               ];
 
               let html = "";
+              const currentMemberCount = members.filter(
+                (member) => member.filter === "filter-current-member"
+              ).length;
+              let currentMemberIndex = 0;
+
               members.forEach((member) => {
+                let currentMemberTailClass = "";
+                if (member.filter === "filter-current-member") {
+                  const membersFromEnd = currentMemberCount - currentMemberIndex;
+                  currentMemberTailClass = `current-member-tail-${membersFromEnd}`;
+                  currentMemberIndex += 1;
+                }
+
                 html += `
-                    <div class="col-lg-3 col-md-2 portfolio-item ${member.filter}">
+                    <div class="col-lg-3 col-md-2 portfolio-item ${member.filter} ${currentMemberTailClass}">
                       <div class="portfolio-wrap">
                         <a href="${member.link}" target="_blank" rel="noopener noreferrer">
                           <img src="${member.img}" class="img-fluid" />
